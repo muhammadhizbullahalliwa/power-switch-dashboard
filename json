@@ -1,0 +1,29 @@
+{
+  "name": "power-switch-dashboard",
+  "version": "3.0.0",
+  "description": "GitHub Pages Dashboard for ESP32 Power Switch System V3",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=8080",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d .",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "esp32",
+    "power-switch",
+    "dashboard",
+    "iot",
+    "home-automation"
+  ],
+  "author": "mh_alliwa",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mh-alliwa/power-switch-dashboard.git"
+  }
+}
