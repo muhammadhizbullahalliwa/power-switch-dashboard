@@ -205,3 +205,22 @@ MIT License - See LICENSE file for details
 ---
 
 **⚠️ Safety Warning**: This system controls high voltage electricity. Proper electrical safety precautions must be followed. The developer is not responsible for any damage or injury resulting from improper use.
+
+
+
+
+  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   ESP32 System  │◄──►│   Local Web     │◄──►│  GitHub Pages   │
+│                 │    │   Interface     │    │   Dashboard     │
+│  - Sensors      │    │  - Basic UI     │    │  - Remote UI    │
+│  - Relays       │    │  - Advanced UI  │    │  - Cloud Data   │
+│  - LCD          │    │  - Real-time    │    │  - Analytics    │
+│  - Buzzer       │    │  - Control      │    │  - Backup       │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Telegram Bot  │    │     Blynk       │    │    mDNS/OTA     │
+│  - Notifications│    │  Mobile App     │    │  Auto-discovery │
+│  - Remote Cmd   │    │  Push Notify    │    │  Firmware Update│
+└─────────────────┘    └─────────────────┘    └─────────────────┘
