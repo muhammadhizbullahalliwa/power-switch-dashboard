@@ -1,0 +1,14 @@
+# Clone repository
+git clone https://github.com/mh-alliwa/power-switch-dashboard.git
+cd power-switch-dashboard
+
+# Install dependencies
+npm install
+
+# Deploy to GitHub Pages
+npm run deploy
+
+# Or manually push
+git add .
+git commit -m "Deploy Power Switch Dashboard"
+git push origin main
